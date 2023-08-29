@@ -1,4 +1,4 @@
-name: Template Octo Organization CI
+name: Template with Shared workflow steps
 
 on:
   push:

@@ -1,10 +1,8 @@
-name: Octo Organization CI
+name: Shared workflow
 
 on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+  workflow_call:
+
 
 jobs:
   build:
@@ -13,5 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Common common-workflow
-        run: echo Hello common-workflow
+      - name: inject Shared workflow
+        run: echo Hello from Shared workflow
