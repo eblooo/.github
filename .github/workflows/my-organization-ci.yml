@@ -9,8 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Use the Common Workflow Template
+      - name: Use the 2Common Workflow Template
         uses: ./.github/workflows/common-workflow.yml
