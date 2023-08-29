@@ -3,7 +3,8 @@
     "description": "Octo Organization CI starter workflow.",
     "iconName": "example-icon",
     "categories": [
-        "Go"
+        "Go",
+        "continuous-integration"
     ],
     "filePatterns": [
         "package.json$",
