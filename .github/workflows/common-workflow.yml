@@ -13,11 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run a one-line script
-        run: echo Hello from Octo Organization
-
-      - name: Use the Common Workflow Template
-        uses: ./.github/workflows/common-workflow.yml
-
-
-
+      - name: Common common-workflow
+        run: echo Hello common-workflow
